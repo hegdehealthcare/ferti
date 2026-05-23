@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .error-container {
+      text-align: center;
+      color: white;
+      z-index: 2;
+      position: relative;
+    }
+
+    .error-code {
+      font-size: 6rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      letter-spacing: -2px;
+    }
+
+    .error-message {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .error-link {
+      display: inline-block;
+      background: white;
+      color: #667eea;
+      padding: 12px 30px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .error-link:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="error-container">
+      <div class="error-code">404</div>
+      <p class="error-message">Oops! Page Not Found</p>
+      <a href="/" class="error-link">← Back to Home</a>
+    </div>
+
+    <div class="background">
+      <div class="shape"></div>
+      <div class="shape"></div>
+      <div class="shape"></div>
+    </div>
+  </div>
+</body>
+</html>
